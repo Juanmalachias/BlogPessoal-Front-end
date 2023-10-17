@@ -97,14 +97,14 @@ function FormularioTema() {
   }, [token]);
 
   return (
-    <div className="container flex flex-col items-center justify-center mx-auto">
-      <h1 className="text-4xl text-center my-8">
+    <div className="container flex flex-col items-center justify-center mx-auto ">
+      <h1 className="text-4xl text-center my-8 borde border-solid rounded-lg py-2 px-4 bg-indigo-800 text-white">
         {id === undefined ? 'Cadastre um novo tema' : 'Editar tema'}
       </h1>
 
-      <form className="w-1/2 flex flex-col gap-4" onSubmit={gerarNovoTema}>
+      <form className="w-1/2 flex flex-col gap-4 " onSubmit={gerarNovoTema}>
         <div className="flex flex-col gap-2">
-          <label htmlFor="descricao">Descrição do tema</label>
+          <label htmlFor="descricao" >Descrição do tema</label>
           <input
             type="text"
             placeholder="Descrição"

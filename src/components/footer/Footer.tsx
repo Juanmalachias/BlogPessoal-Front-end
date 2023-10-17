@@ -13,8 +13,8 @@ function Footer() {
   if(usuario.token !== '') {
     footerComponent = (
       <>
-        <div className="flex justify-center bg-indigo-900 text-white">
-          <div className="container flex flex-col items-center py-4">
+        <div className="flex justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
+          <div className="container flex flex-col items-center py-2">
             <p className='text-xl font-bold'>Blog pessoal Generation | Copyright: {data}</p>
             <p className='text-lg'>Acesse nossas redes sociais</p>
             <div className='flex gap-2'>
